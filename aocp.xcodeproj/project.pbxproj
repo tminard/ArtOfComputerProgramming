@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D69134961E5A375F00EDC719 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D69134951E5A375F00EDC719 /* main.cpp */; };
-		D69134A01E5A37CD00EDC719 /* A1p1E.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D691349E1E5A37CD00EDC719 /* A1p1E.cpp */; };
-		D69134A31E5A387300EDC719 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D69134A11E5A387300EDC719 /* Algorithm.cpp */; };
+		D63E2FEE1E5A3FA200D9314A /* A1p1E.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63E2FED1E5A3FA200D9314A /* A1p1E.cpp */; };
+		D63E2FF31E5A3FC600D9314A /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63E2FF01E5A3FC600D9314A /* Algorithm.cpp */; };
+		D63E2FF41E5A3FC600D9314A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D63E2FF21E5A3FC600D9314A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,12 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D63E2FED1E5A3FA200D9314A /* A1p1E.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = A1p1E.cpp; path = aocp/A1p1E.cpp; sourceTree = SOURCE_ROOT; };
+		D63E2FEF1E5A3FA700D9314A /* A1p1E.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = A1p1E.h; path = aocp/A1p1E.h; sourceTree = SOURCE_ROOT; };
+		D63E2FF01E5A3FC600D9314A /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Algorithm.cpp; path = aocp/Algorithm.cpp; sourceTree = SOURCE_ROOT; };
+		D63E2FF11E5A3FC600D9314A /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Algorithm.h; path = aocp/Algorithm.h; sourceTree = SOURCE_ROOT; };
+		D63E2FF21E5A3FC600D9314A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = aocp/main.cpp; sourceTree = SOURCE_ROOT; };
 		D69134921E5A375F00EDC719 /* Art Of Computer Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Art Of Computer Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D69134951E5A375F00EDC719 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D691349E1E5A37CD00EDC719 /* A1p1E.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = A1p1E.cpp; sourceTree = "<group>"; };
-		D691349F1E5A37CD00EDC719 /* A1p1E.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A1p1E.h; sourceTree = "<group>"; };
-		D69134A11E5A387300EDC719 /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
-		D69134A21E5A387300EDC719 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +63,10 @@
 		D69134941E5A375F00EDC719 /* Art Of Computer Programming */ = {
 			isa = PBXGroup;
 			children = (
+				D63E2FF01E5A3FC600D9314A /* Algorithm.cpp */,
+				D63E2FF11E5A3FC600D9314A /* Algorithm.h */,
+				D63E2FF21E5A3FC600D9314A /* main.cpp */,
 				D691349C1E5A376600EDC719 /* Vol1 */,
-				D69134951E5A375F00EDC719 /* main.cpp */,
-				D69134A11E5A387300EDC719 /* Algorithm.cpp */,
-				D69134A21E5A387300EDC719 /* Algorithm.h */,
 			);
 			path = "Art Of Computer Programming";
 			sourceTree = "<group>";
@@ -82,8 +82,8 @@
 		D691349D1E5A376D00EDC719 /* Chap1 */ = {
 			isa = PBXGroup;
 			children = (
-				D691349E1E5A37CD00EDC719 /* A1p1E.cpp */,
-				D691349F1E5A37CD00EDC719 /* A1p1E.h */,
+				D63E2FED1E5A3FA200D9314A /* A1p1E.cpp */,
+				D63E2FEF1E5A3FA700D9314A /* A1p1E.h */,
 			);
 			name = Chap1;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D691348D1E5A375F00EDC719 /* Build configuration list for PBXProject "Art Of Computer Programming" */;
+			buildConfigurationList = D691348D1E5A375F00EDC719 /* Build configuration list for PBXProject "aocp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,9 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69134A31E5A387300EDC719 /* Algorithm.cpp in Sources */,
-				D69134A01E5A37CD00EDC719 /* A1p1E.cpp in Sources */,
-				D69134961E5A375F00EDC719 /* main.cpp in Sources */,
+				D63E2FF31E5A3FC600D9314A /* Algorithm.cpp in Sources */,
+				D63E2FEE1E5A3FA200D9314A /* A1p1E.cpp in Sources */,
+				D63E2FF41E5A3FC600D9314A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -206,7 +206,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D691348D1E5A375F00EDC719 /* Build configuration list for PBXProject "Art Of Computer Programming" */ = {
+		D691348D1E5A375F00EDC719 /* Build configuration list for PBXProject "aocp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D69134971E5A375F00EDC719 /* Debug */,
@@ -276,6 +276,7 @@
 				D691349B1E5A375F00EDC719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

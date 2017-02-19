@@ -35,7 +35,7 @@
             BlueprintIdentifier = "D69134911E5A375F00EDC719"
             BuildableName = "Art Of Computer Programming"
             BlueprintName = "Art Of Computer Programming"
-            ReferencedContainer = "container:Art Of Computer Programming.xcodeproj">
+            ReferencedContainer = "container:aocp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "D69134911E5A375F00EDC719"
             BuildableName = "Art Of Computer Programming"
             BlueprintName = "Art Of Computer Programming"
-            ReferencedContainer = "container:Art Of Computer Programming.xcodeproj">
+            ReferencedContainer = "container:aocp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

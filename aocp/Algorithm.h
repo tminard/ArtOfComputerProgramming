@@ -11,10 +11,12 @@
 
 #include <stdio.h>
 
+struct AlgorithmResult { };
+
 class Algorithm {
 private:
 public:
-  virtual void execute() {};
+  virtual AlgorithmResult* execute() { return new AlgorithmResult; };
 };
 
 #endif /* Algorithm_hpp */
